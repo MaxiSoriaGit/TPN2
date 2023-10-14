@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git y GitHub</title>
+</head>
+<body>
+    <h1>Git y GitHub</h1>
+    <h2>Las 4 sentencias más utilizadas</h2>
+
+    <h4>Git init (Inicializar)</h4>
+    <p>
+        Este comando se utiliza para iniciar un nuevo repositorio en un directorio específico. Es como decirle a Git, "¡Vamos a empezar a 
+        rastrear cambios en estos archivos!" Puedes verificar si se ha creado el repositorio al observar una carpeta oculta llamada 
+        <code>.git</code> en ese directorio. Git guarda en esta carpeta toda la información sobre tu proyecto y los cambios que haces.
+    </p>
+
+    <h4>Git status (Estado)</h4>
+    <p>
+        Utilizamos este comando para obtener una lista de los archivos en tu proyecto y su estado actual. Si has hecho cambios en tus archivos,
+         <code>git status</code> te mostrará cuáles archivos se han modificado o agregado desde el último commit. Es como una lista de 
+         verificación para saber qué está pasando en tu proyecto.
+    </p>
+
+    <h4>Git add (Agregar)</h4>
+    <p>
+        Este comando no te mostrará nada en la pantalla, pero es crucial. Lo que hace es poner los archivos en un estado llamado "staging" 
+        o escenario. Básicamente, estás diciéndole a Git que estos archivos están listos para ser parte del próximo commit. Puedes usar 
+        <code>git add</code> de diferentes maneras, como para añadir todos los archivos con una extensión específica o todos los archivos en un directorio.
+    </p>
+    <ul>
+        <li><code>git add *.jpg</code> agregará todos los archivos cuyo nombre termine en <code>.jpg</code> al área de stage.</li>
+        <li><code>git add ruta/a/directorio</code> agregará todos los archivos del directorio al área de stage.</li>
+        <li><code>git add .</code> agregará todos los archivos modificados y/o no rastreados al área de stage.</li>
+    </ul>
+
+    <h4>Git commit (Confirmar)</h4>
+    <p>
+        Una vez que has puesto los archivos en el escenario con <code>git add</code>, este comando toma esos archivos y los guarda oficialmente
+         en tu historial de cambios. Es como tomar una "foto" de tus archivos en ese momento. Necesitas agregar un mensaje descriptivo con 
+         <code>-m</code> para que sepas más adelante qué cambios hiciste en ese commit. Esto es importante para entender la historia de tu 
+         proyecto en el futuro.
+    </p>
+
+    <p>Volver a <a href="index.html">Página Principal</a></p>
+</body>
+</html>
+
+
+
